@@ -1,0 +1,25 @@
+.game .fa-star {
+    margin: 0.5em;
+    font-size: 24px;
+}
+
+.game span {
+    margin: 0.5em;
+    display: inline-block;
+    text-align: center;
+    background-color: #ccc;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.game .selected {
+    background-color: #eee;
+    color: #ddd;
+    cursor: not-allowed;
+}
+
+.game .used {
+    background-color: #aaddaa;
+    color: #99bb99;
+}
